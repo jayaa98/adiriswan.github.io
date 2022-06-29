@@ -289,6 +289,12 @@
       AOS.init();
     </script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script>
+      gsap.form('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 });
+      gsap.form('.navbar', { duration: 1.5, y: '-100', opacity: 0, ease: 'bounce' });
+    </script>
+
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxoxZA1b-rs3Ok2ZeOSkUsVdGCxU3B7clSnOlBMU2L_f-Fe7OGeon5j5WXW8i41dFDw/exec';
       const form = document.forms['Contact-adiriswan-Form'];
